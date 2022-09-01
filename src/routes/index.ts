@@ -1,9 +1,9 @@
 import { Router } from "express";
 
-//import @@@@ from './@@@@.ts';
+import battlesRouter from './battlesRouter.js';
 
 const router = Router();
 
-//router.use(@@@@);
+router.use(battlesRouter);
 
 export default router;
